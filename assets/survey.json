@@ -3,6 +3,7 @@
     "id": 1,
     "isMandatory": false,
     "question": "What is your gender?",
+    "description": "Better giving the description",
     "questionType": "radio",
     "answerChoices": {
       "Male": [
@@ -36,21 +37,24 @@
       "Female": [
         {
           "id": 103,
-          "isMandatory": true,
+          "isMandatory": false,
           "question": "Are you pregnant?",
+          "description": "giving the description",
+          "image": "https://fastly.picsum.photos/id/60/200/300.jpg?hmac=OeRKYl1vFStEdR8BEDJW4JRnkE3FdcrGzxxKT_omffg",
           "questionType": "list",
           "answerChoices": {
             "Yes": [
               {
                 "id": 104,
-                "isMandatory": true,
+                "isMandatory": false,
                 "question": "Are you taking medication?",
+                "description": null,
                 "questionType": "list",
                 "answerChoices": {
                   "Yes": [
                     {
                       "id": 105,
-                      "isMandatory": true,
+                      "isMandatory": false,
                       "question": "From when are you taking medication?",
                       "questionType": "datetime",
                       "answerChoices": null,
@@ -60,7 +64,7 @@
                   "No": [
                     {
                       "id": 106,
-                      "isMandatory": true,
+                      "isMandatory": false,
                       "question": "Are You Taking Any Other Medication Not Related To Pregnecy",
                       "questionType": "list",
                       "answerChoices": {
@@ -124,8 +128,10 @@
   },
   {
     "id": 2,
-    "isMandatory": true,
+    "isMandatory": false,
     "question": "How old are you?",
+    "description": null,
+    "image": "https://media.istockphoto.com/id/1334591614/photo/man-using-digital-tablet-online-connect-to-internet-banking-currency-exchange-online-shopping.jpg?s=1024x1024&w=is&k=20&c=ho97hTtpbzO2oM5e8EDdGf8a6ZLRZr94gWxBAnRMzLk=",
     "questionType": "slider",
     "score": 6,
     "answerChoices": null
@@ -264,7 +270,7 @@
   },
   {
     "id": 5,
-    "isMandatory": true,
+    "isMandatory": false,
     "question": "What diet do you prefer?",
     "questionType": "radio",
     "answerChoices": {
